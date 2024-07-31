@@ -3,7 +3,7 @@
 This repository contains the data and analysis scripts used for our study on eye-tracking metrics, including saccades, blinks, and pupil size dynamics. The data is meticulously organized and processed to facilitate various statistical analyses and visualizations. Below, you will find a detailed description of the contents in each folder, including the scripts used for data processing, analysis, and figure generation.
 
 # Folder Structure and Contents
-## Folder '''0_data''':
+## Folder ''0_data'':
 - metricTab3_4.mat: This pre-processed data file contains extracted eye metrics, including saccade, blink, and pupil size.
 - pupilTab.mat: Contains data on pupil size and its temporal dynamics.
 - evTab_4_all_tasks.csv: This file is organized for ANOVA analysis in R.
