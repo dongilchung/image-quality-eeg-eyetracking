@@ -29,6 +29,6 @@ This repository contains the data and analysis scripts used for our study on eye
 - Anal_7_3_1_residual_linear_reg_puptime_suppl.m: Analyzes residual regression for temporal pupil size data.
 ### Statistical Analysis in R:
 - Anal_ANCOVA_pupilTime_permu2.R: Runs cluster-based permutation ANCOVA.
-- Anal_ANOVA_eye_metrics.R: Performs ANOVA on eye metrics data.
-- Anal_ANOVA_pupilTime.R: Conducts ANOVA on temporal pupil size data.
+- Anal_ANOVA_eye_metrics.R: Performs ANCOVA on eye metrics data.
+- Anal_ANOVA_pupilTime.R: Conducts ANCOVA on temporal pupil size data.
 - Anal_ANOVA_pupilTime_posthoc.R: Executes post-hoc tests following ANCOVA.
