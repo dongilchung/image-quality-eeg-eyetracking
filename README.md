@@ -6,7 +6,7 @@ This repository contains the data and analysis scripts used for our study on eye
 ### Folder ```0_data```:
 - ```metricTab3_4.mat```: This pre-processed data file contains extracted eye metrics, including saccade, blink, and pupil size.
 - ```pupilTab.mat```: Contains data on pupil size and its temporal dynamics.
-- ```evTab_4_all_tasks.csv```: This file is organized for ANOVA analysis in R.
+- ```evTab_4_all_tasks.csv```: This file is organized for ANCOVA analysis in R.
 ### Folder ```1_figure```:
 - **Figure 5(a-c)**: Generated using the script Anal_5_31_5_wb_ANCOVA.m.
 - **Figure 5(d)**: Generated from the script Anal_6_2_1_pupil_time_wb_plot.m.
@@ -20,8 +20,8 @@ This repository contains the data and analysis scripts used for our study on eye
 #### Pre-processing:
 - ```Anal_2_preprocessing.m```: Parses trial information from experiments.
 - ```Anal_3_3_eye_metric_rev3.m```: Extracts eye metrics from raw data.
-- ```Anal_4_3_gen_table_for_anova.m```: Generates tabular data for running ANOVA in R.
-- ```Anal_6_1_gen_anova_tab_pupil_time.m```: Prepares data of temporal pupil size for ANOVA.
+- ```Anal_4_3_gen_table_for_anova.m```: Generates tabular data for running ANCOVA in R.
+- ```Anal_6_1_gen_anova_tab_pupil_time.m```: Prepares data of temporal pupil size for ANCOVA.
 #### Data Analysis:
 - ```Anal_5_42_rating_lin_reg.m```: Analyzes the correlation between eye metrics and vividness ratings.
 - ```Anal_6_3_rating_lin_reg_pupil_time.m```: Examines the correlation between pupil size and vividness ratings over time.
