@@ -17,7 +17,7 @@ This repository contains codes of figure generation and statistical analysis suc
 - **Figure S1**: Self-reports on image-associated valence and arousal.
 - **Figure S2**: Objective White-boosting modes manifest in distinct EEG responses: 
 ERPs and F-values across all 31 channels. 
-- **Figure S3**: Impacts of image-associated arousal and valence on EEG responses. This figure refers Ancova_figure_analysis.
+- **Figure S3**: Impacts of image-associated arousal and valence on EEG responses. This figure refers Anal_Ancova_figure_analysis.
 - **Figure S6**: Vividness ratings manifest in distinct EEG responses: beta estimates 
 for image-associated vividness rating (β1) across all 31 channels. Figure S6a refers Anal_Multiple_Linear_Regression_image_based.m and Figure S6b refers Anal_cluster_based_permutation.m
 - **Figure S7**: Residual regression analysis: the association between EEG responses 
