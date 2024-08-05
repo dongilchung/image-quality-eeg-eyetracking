@@ -11,7 +11,7 @@ This repository contains codes of figure generation and statistical analysis suc
 - ### Folder ```1_figure```:
 - **Figure 2B**: This code generates figure 2B, about self-reports on the subjective vividness rating.  
 - **Figure 4**: This code generates figure 4a: Distinct EEG-patterns in response to three White-boosting modes, This figure contents involves cluster-based permutation analysis. This statistical analysis needs to load data by using Anal_Ancova_data_load_for_R_analysis.m and 1000times of ANCOVA analysis from R by using Anal_Ancova_1000times_random_sampled.R. Finally, Anal_cluster_based_permutation.m and Ancova_figure_analysis.m is used to present significant clusters in Figure 4a. 
-                - figure 4b:Topographical representation of F statistics across 31 EEG channels
+                figure 4b:Topographical representation of F statistics across 31 EEG channels
 - **Figure 6(a-c)**: This code generates figure 6a: Three distinct ERP of vividness rating groups (dull,mid and vivid), figure 6b: Multiple linear regression analysis of ERP and subjective rating by using Anal_Multiple_Linear_Regression_image_based.m, figure 6c: Topographical representation of t-statistics across 31 EEG channels.
 #### Supplementary Figures:
 - **Figure S1**: Self-reports on image-associated valence and arousal.
