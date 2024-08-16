@@ -1,7 +1,11 @@
 # image-quality-eeg-eyetracking
-This repository contains the data and analysis scripts used for our study on EEG and eye-tracking metrics, including saccades, blinks, and pupil size dynamics. The data is meticulously organized and processed to facilitate statistical analyses and visualizations. Below, you will find a detailed description of the contents in each folder, including the scripts used for data processing, analysis, and figure generation.
-## Folder Structure and Contents
+This repository contains the data and analysis scripts used for our study on EEG and eye-tracking metrics, including saccades, blinks, and pupil size dynamics. This dataset and the associated scripts provide a comprehensive foundation for replicating our statistical analyses and generating the figures presented in the publication.
+
+## Repository Structure and Detailed Contents
+The repository is organized into three main folders: 0_data/, 1_figure/, and 2_analysis/. Below is a detailed description of the contents in each folder, including the scripts used for data processing, analysis, and figure generation.
+
 ### Folder ```0_data```:
+This folder contains the raw and pre-processed data files, including EEG, eye-tracking, and behavioral data.
 - ```Behavior_vivid.mat```: This is behavior data for vividness block.
 - ```Behavior_valence.mat```: This is behavior data for valence block.
 - ```Behavior_arousal.mat```: This is behavior data for arousal block.
@@ -12,6 +16,7 @@ This repository contains the data and analysis scripts used for our study on EEG
 - ```pupilTab.mat```: Contains data on pupil size and its temporal dynamics.
 - ```evTab_4_all_tasks.csv```: This file is organized for ANCOVA analysis in R.
 ### Folder ```1_figure```:
+This folder contains scripts for generating figures presented in the paper.
 - **Figure 2(b)**: This code generates figure 2(b), about self-reports on the subjective vividness rating.  
 - **Figure 4**: This code generates figure 4(a): Distinct EEG-patterns in response to three White-boosting modes, This figure contents involves cluster-based permutation analysis. This statistical analysis needs to load data by using Anal_Ancova_data_load_for_R_analysis.m and 1000times of ANCOVA analysis from R by using Anal_Ancova_1000times_random_sampled.R. Finally, Anal_cluster_based_permutation.m and Ancova_figure_analysis.m is used to present significant clusters in Figure 4(a). Figure 4(b): Topographical representation of F statistics across 31 EEG channels
 - **Figure 5(a-c)**: Generated using the script Anal_5_31_5_wb_ANCOVA.m.
@@ -33,6 +38,7 @@ and the vividness ratings remains robust after controlling for the variance capt
 by image-associated arousal and valence. This figure is produced by Anal_Residual_Multiple_Linear_regression_image_based.m and Anal_cluster_based_permutation.m
 - **Figure S8**: Produced from Anal_7_2_2_residual_linear_reg_suppl_plot.m.
 ### Folder ```2_analysis```:
+This folder is divided into three sections: Pre-processing, Data Analysis, and Statistical Analysis in R.
 #### Pre-processing:
 - ```Anal_Create_chanhood.m```: Create EEG clustering channel information before launching cluster-based permutation analysis.
 - ```Anal_Ancova_data_load_for_R_analysis.m```: Extracts data set for 1000 times of ANCOVA random sampled analysis.
@@ -52,6 +58,6 @@ by image-associated arousal and valence. This figure is produced by Anal_Residua
 #### Statistical Analysis in R:
 - ```Anal_ANCOVA_1000times_random_sampled.R```: Runs cluster-based permutation ANCOVA for EEG.
 - ```Anal_ANCOVA_pupilTime_permu2.R```: Runs cluster-based permutation ANCOVA.
-- ```Anal_ANOVA_eye_metrics.R```: Performs ANCOVA on eye metrics data.
-- ```Anal_ANOVA_pupilTime.R```: Conducts ANCOVA on temporal pupil size data.
-- ```Anal_ANOVA_pupilTime_posthoc.R```: Executes post-hoc tests following ANCOVA.
+- ```Anal_ANCOVA_eye_metrics.R```: Performs ANCOVA on eye metrics data.
+- ```Anal_ANCOVA_pupilTime.R```: Conducts ANCOVA on temporal pupil size data.
+- ```Anal_ANCOVA_pupilTime_posthoc.R```: Executes post-hoc tests following ANCOVA.
