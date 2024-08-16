@@ -1,7 +1,5 @@
 # image-quality-eeg-eyetracking
-
 This repository contains the data and analysis scripts used for our study on EEG and eye-tracking metrics, including saccades, blinks, and pupil size dynamics. The data is meticulously organized and processed to facilitate statistical analyses and visualizations. Below, you will find a detailed description of the contents in each folder, including the scripts used for data processing, analysis, and figure generation.
-
 ## Folder Structure and Contents
 ### Folder ```0_data```:
 - ```Behavior_vivid.mat```: This is behavior data for vividness block.
