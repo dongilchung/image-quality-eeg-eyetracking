@@ -4,6 +4,13 @@ This repository contains the data and analysis scripts used for our study on EEG
 ## Repository Structure and Detailed Contents
 The repository is organized into three main folders: 0_data/, 1_figure/, and 2_analysis/. Below is a detailed description of the contents in each folder, including the scripts used for data processing, analysis, and figure generation.
 
+### Folder  ```0_experiment ```: 
+This folder is divided into three sections: Code, Code_launch_files, and Instruction.
+
+- Folder ```Code```: Contains the scripts and functions used to run the experimental sessions.
+- Folder ```Code_launch_files```: Holds the files defining the stimuli sequence presented during the experiments.
+- Folder ```Instruction```: Includes the instructions provided to participants before and during the experiments.
+
 ### Folder ```1_data```:
 This folder contains the raw and pre-processed data files, including EEG, eye-tracking, and behavioral data.
 - ```Behavior_vivid.mat```: This is behavior data for vividness block.
